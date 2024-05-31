@@ -1,0 +1,21 @@
+
+  .nav-item {
+    width: 574px;
+    height: 112px;
+    background: #FFFFFF;
+    mix-blend-mode: soft-light;
+    border-radius: 38.8889px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    line-height: 112px; /* Align text vertically */
+    margin-right: 10px; /* Spacing between items */
+  }
+  
+  .nav-item.active {
+    /* Highlight style for the active page */
+    font-weight: bold;
+    background: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: normal;
+  }
